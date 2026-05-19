@@ -53,7 +53,7 @@
 						<img src="images/APO.png" width="49%" alt="" />
 
 									<h2>Optical Etaloning and Data Reduction/Calibration Pipeline</h2>
-									<p>An issue that arose from the use of the back-buried CCD was optical etaloning, or the phenomenon of the silicon chip becoming more opaque at longer wavelengths and therefore causing internal relfection and "fringing" patterns. I helped our EE colleagues develop software to correct for this effect by effectively solving for the thicknes function of the silicon chip and modeling artificial, normalized fringing frames, wihch were then used prior to flat division to divide out the fringing signature. You can read more about this optical etaloning correction software <a href="https://www.spiedigitallibrary.org/journals/Journal-of-Astronomical-Telescopes-Instruments-and-Systems/volume-6/issue-02/028002/Correcting-etaloning-fringes-in-hyperspectral-image-cubes-of-Jupiter-using/10.1117/1.JATIS.6.2.028002.full">here.</a></p>
+									<p>An issue that arose from the use of the back-buried CCD was optical etaloning, or the phenomenon of the silicon chip becoming more opaque at longer wavelengths and therefore causing internal relfection and "fringing" patterns. I helped our EE colleagues develop software to correct for this effect by effectively solving for the thicknes function of the silicon chip and modeling artificial, normalized fringing frames, wihch were then used prior to flat division to divide out the fringing signature. See the below left video for a prototype of this model that I developed, which shows the fringing pattern intensities resulting from different wavelengths for a given chip shape. The final derived chip shape and thickness function are to the right, from Wijerathna et al. 2020. You can read more about this optical etaloning correction software <a href="https://www.spiedigitallibrary.org/journals/Journal-of-Astronomical-Telescopes-Instruments-and-Systems/volume-6/issue-02/028002/Correcting-etaloning-fringes-in-hyperspectral-image-cubes-of-Jupiter-using/10.1117/1.JATIS.6.2.028002.full">here.</a></p>
 
 								
 			<video width="30%" vertical-align=middle controls>
@@ -62,7 +62,8 @@
 									<img src="images/wijerathna_2020.png" width="69%" alt="" />	
 									
 <p> 
-Another large task I completed as a PhD student was writing a full Python-based photometric calibration and reduction pipeline (see illustration of steps below) for our NAIC hyperspectral image cubes of Jupiter. You can find the pipeline <a href="https://github.com/dahlek/NAIC_Pipeline">here</a> and a paper on results from NAIC data <a href="https://iopscience.iop.org/article/10.3847/PSJ/abd400/meta">here</a>.
+	
+Another large task I completed as a PhD student was writing a full Python-based photometric calibration and reduction pipeline (see illustration of steps below) for our NAIC hyperspectral image cubes of Jupiter. You can find the pipeline <a href="https://github.com/dahlek/NAIC_Pipeline">here</a>, a thorough discussion of the steps in my <a href="https://drive.google.com/file/d/1M0bo3anSs1GEVUi0Z5i128kx0p1hCigR/view?usp=sharing">thesis</a>, and a paper on results from NAIC data <a href="https://iopscience.iop.org/article/10.3847/PSJ/abd400/meta">here</a>.
 </p>
 
 <span class="image main"><img src="images/pipeline.png" alt="" /></span>
